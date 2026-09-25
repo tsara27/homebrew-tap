@@ -1,11 +1,11 @@
-# Template: the release workflow fills tsara27, 0.2.0 and 11328acede202546e9f8b01bc11af2c6cb93236d1af1be5e40abbd1b05f71b62 and pushes the result
+# Template: the release workflow fills tsara27, 0.2.1 and 055354d783e2b577076380711ecf7db57ae90b91aa123f5e305bd55dba05a2aa and pushes the result
 # to the homebrew-tap repository as Formula/klinit.rb.
 class Klinit < Formula
   desc "Clean up your Mac from the command line"
   homepage "https://github.com/tsara27/klinit"
-  url "https://github.com/tsara27/klinit/releases/download/v0.2.0/klinit-0.2.0-macos-universal.tar.gz"
-  sha256 "11328acede202546e9f8b01bc11af2c6cb93236d1af1be5e40abbd1b05f71b62"
-  version "0.2.0"
+  url "https://github.com/tsara27/klinit/releases/download/v0.2.1/klinit-0.2.1-macos-universal.tar.gz"
+  sha256 "055354d783e2b577076380711ecf7db57ae90b91aa123f5e305bd55dba05a2aa"
+  version "0.2.1"
 
   def install
     bin.install "klinit"
